@@ -1,0 +1,18 @@
+{
+    "language": "Yul",
+	"settings": {
+		"optimizer": {
+			"enabled": true,
+			"runs": 4294967295,
+			"details": {
+                "yul": true
+            }
+		},
+        "outputSelection": {
+            "*": {
+                "*": ["*"]
+            }
+        },
+		"evmVersion": "cancun"
+	}
+}
